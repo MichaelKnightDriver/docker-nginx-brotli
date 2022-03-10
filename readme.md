@@ -1,3 +1,10 @@
+# Docker Command
+
+```diff
++ docker pull ghcr.io/michaelknightdriver/docker-nginx-brotli:latest
++ docker pull michaelknightdriver/docker-nginx-brotli:latest
+```
+
 # What is this?
 This project is based on Alpine Linux, the official nginx image and an nginx module that provides static and dynamic brotli compression. [Brotli](https://github.com/google/brotli) and the [nginx brotli module ](https://github.com/google/ngx_brotli) are built by Google.
 
